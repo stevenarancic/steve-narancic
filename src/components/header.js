@@ -61,6 +61,7 @@ export default function Header() {
                                     <IconWithText
                                         icon={<Icon.Whatsapp />}
                                         title="Faça um Orçamento"
+                                        isCenter="true"
                                     />
                                 </Nav.Link>
                             </Nav>

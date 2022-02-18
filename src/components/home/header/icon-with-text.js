@@ -7,6 +7,7 @@ export default function IconWithText(props) {
             style={{
                 display: "flex",
                 alignItems: "center",
+                justifyContent: props.isCenter ? "center" : "",
             }}
         >
             {props.icon}
